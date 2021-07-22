@@ -27,7 +27,6 @@ body {
   padding: 10px 10px;
   border-radius: 5px;
   margin-top: 10px;
-  margin-left: 85px;
 }
 
 #academichistory .btn a {
@@ -40,4 +39,29 @@ body {
 #academichistory .btn:hover {
   border: 2px solid #1ebba3;
   cursor: pointer;
+}
+
+/*----------Media Query----------*/
+@media screen and (max-width: 767px) {
+  /*----------tablets----------*/
+
+  #academichistory .carousel-caption h3 {
+    font-size: 1em;
+  }
+
+  #academichistory .carousel-caption p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /*----------smartphones----------*/
+
+  #academichistory .carousel-caption h3 {
+    font-size: 1em;
+  }
+
+  #academichistory .carousel-caption p {
+    font-size: 0.8em;
+  }
 }
